@@ -10,6 +10,7 @@ class Loading extends StatefulWidget {
 
   @override
   _LoadingState createState() => _LoadingState();
+
 }
 
 class _LoadingState extends State<Loading> {
@@ -39,7 +40,7 @@ class _LoadingState extends State<Loading> {
   else
   {
 
-        print("retry");
+        print("Retry");
 
 
 
