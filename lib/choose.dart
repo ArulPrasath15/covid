@@ -53,9 +53,7 @@ class _ChooseState extends State<Choose> {
                 // textStyle: Theme.of(context).textTheme.display1,
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
-                  
-      
-                ),
+                 ),
           ),
         backgroundColorStart: Colors.redAccent,
         backgroundColorEnd: Colors.blue,
@@ -119,7 +117,7 @@ class _ChooseState extends State<Choose> {
                );
 
              }
-        
+
         ),
      ),
 
