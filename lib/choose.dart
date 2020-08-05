@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:gradient_app_bar/gradient_app_bar.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
-
 class Choose extends StatefulWidget {
   Choose({Key key}) : super(key: key);
 
@@ -84,12 +82,9 @@ class _ChooseState extends State<Choose> {
                        
                         Navigator.pushNamed(context,'/info' ,arguments:{
                             'location':location[index],
-                            
 
-                          });
-                        
-      
-                      
+                        });
+
                       },
                       onTap: ()async{
                         
@@ -99,10 +94,8 @@ class _ChooseState extends State<Choose> {
                             
 
                           });
-                        
-      
-                      
-                      },
+
+                        },
                       contentPadding: EdgeInsets.fromLTRB(10, 0.0, 5.0, 0.0),
                       title:Text(location[index].loc,
                                 style:GoogleFonts.openSans(
@@ -122,16 +115,13 @@ class _ChooseState extends State<Choose> {
 
                       ),
                  
-
-
-
                  ),
                );
 
              }
         
         ),
-    ),
+     ),
 
     );
   }
