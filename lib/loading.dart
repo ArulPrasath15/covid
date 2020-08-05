@@ -39,7 +39,7 @@ class _LoadingState extends State<Loading> {
   else
   {
 
-        print("retry");
+        print("Retry");
 
 
 
