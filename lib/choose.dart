@@ -54,6 +54,7 @@ class _ChooseState extends State<Choose> {
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
                  ),
+
           ),
         backgroundColorStart: Colors.redAccent,
         backgroundColorEnd: Colors.blue,
