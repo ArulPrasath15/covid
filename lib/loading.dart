@@ -3,9 +3,6 @@ import 'package:gradient_app_bar/gradient_app_bar.dart';
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
-
-
 class Loading extends StatefulWidget {
 
   @override
@@ -35,15 +32,11 @@ class _LoadingState extends State<Loading> {
         print(data['active']); 
      
 
-
   }
   else
   {
 
         print("Retry");
-
-
-
 
   }
     return(
@@ -200,8 +193,6 @@ class _LoadingState extends State<Loading> {
 
                           ],)  
 
-
-
                    ),
                  ),
                ),
@@ -257,11 +248,6 @@ class _LoadingState extends State<Loading> {
                                 ),
               ),
             ),
-
-
-
-
-
 
       )
 
