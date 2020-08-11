@@ -1,7 +1,7 @@
-import 'package:gradient_app_bar/gradient_app_bar.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:flutter/material.dart';
 import 'package:covid/fetch.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:gradient_app_bar/gradient_app_bar.dart';
 class Info extends StatefulWidget {
   
 
