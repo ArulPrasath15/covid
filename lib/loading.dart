@@ -219,6 +219,7 @@ class _LoadingState extends State<Loading> {
                 ),
               ],
             )
+            
           : Padding(
               padding: EdgeInsets.fromLTRB(25, 250, 0, 0),
               child: Text(
